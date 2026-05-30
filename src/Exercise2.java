@@ -9,10 +9,10 @@ public class Exercise2 {
      * - 1 represents a single-digit integer.
      * - 2 represents a two-digit integer.
      * - 0 represents either a single-digit or a two-digit integer.
-     *
+     * <p>
      * The method must return true if there is a continuous sub-array within 'a' that
      * exactly matches the sequence defined by the 'pattern', and false otherwise.
-     *
+     * <p>
      * Constraints:
      * - The solution must be entirely recursive.
      * - The use of any loops is strictly forbidden.
