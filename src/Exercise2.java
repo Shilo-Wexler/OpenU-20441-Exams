@@ -1,4 +1,4 @@
-public class Exercise_2 {
+public class Exercise2 {
     /**
      * Write a completely recursive boolean method:
      * {@code public static boolean match(int[] a, int[] pattern)}
