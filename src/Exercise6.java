@@ -20,7 +20,7 @@ public class Exercise6
         fillHadamard(mat, 0, 0, mat.length, 1);
     }
 
-    private  static void fillHadamard (int[][] mat, int row, int col, int size, int sign)
+    private static void fillHadamard (int[][] mat, int row, int col, int size, int sign)
     {
         if (size == 1)
         {
@@ -30,7 +30,7 @@ public class Exercise6
         int halfSize = size / 2;
 
         fillHadamard(mat, row, col, halfSize, sign);
-        fillHadamard(mat, row , col + halfSize, halfSize, sign);
+        fillHadamard(mat, row, col + halfSize, halfSize, sign);
         fillHadamard(mat, row + halfSize, col, halfSize, sign);
         fillHadamard(mat, row + halfSize, col + halfSize, halfSize, -sign);
     }
